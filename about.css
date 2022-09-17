@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+body{
+    width: 100%;
+    height: 280vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-top: 0%;
+    background-color: rgb(81, 81, 81);
+}
+
+a, li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    top: 0%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10%;
+    background-color: rgb(254, 254, 254);
+    position: fixed;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.pic1{
+    cursor: pointer;
+}
+
+.text1{
+    display: flex;
+    width: fit-content;
+    height: 80px;
+    color:rgb(48, 167, 232);
+    font-size: 18px;
+    font-family: calibri, sans-serif;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navi{
+    list-style: none;
+    height: 100%;
+}
+
+.navi li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+.navi li a{
+    font-size:22px;
+    font-family: calibri, sans-serif;
+    font-weight: 800;
+    color: rgb(134, 134, 134);
+}
+
+.navi li a:hover{
+    color: rgb(48, 167, 232);
+    transition: all 0.35s ease-in 0s;
+}
+
+
+.mem1{
+    cursor: pointer;
+    width: fit-content;
+    margin: 0%;
+}
+
+.mem{
+    width:200px;
+    padding: 9px 25px;
+    background-color: rgb(48, 167, 232);
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0%;
+}
+.test{
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bod2{
+width: 100%;
+height: 100vh;
+background-image: url(images/library.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+}
+
+.wrapper{
+    width: 100%;
+    text-align: center;
+    height: 25%;
+    padding-top: 12%;
+}
+
+.big{
+    font-weight: 600;
+    font-size: 90px;
+    color:black;
+    font-family: calibri, sans-serif;
+    margin: 0%;
+}
+
+.register{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0px 20px;
+    color: rgb(3, 3, 3);
+}
+
+
+.bod3{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    color: black;
+}
+
+.wrap{
+    display: flex;
+}
+
+.left1{
+    flex: 1;
+}
+
+.topi{
+    margin-left: 10%;
+    margin-top:40px;
+}
+
+.topic{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.wrapper1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.test1{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.right1{
+    flex: 1;
+    height: 100%;
+}
+
+.study{
+    width: 80%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.bod4{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    color: black;
+}
+
+.wrapper2{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+
+.left{
+    flex: 1;
+    width: 40%;
+    margin-left: 0px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.study1{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+
+.right{
+    flex: 1;
+    width: 40%;
+    margin: 0%;
+    margin-left:0px;
+    margin-top: 30px;
+    padding: 0%;
+}
+
+.test2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.topicsw{
+    font-family: calibri, sans-serif;    
+    width: 80%;
+}
+
+h3{
+    font-family: calibri, sans-serif;
+}
+
+.things{
+    font-family: calibri, sans-serif;
+    width: 60%;
+    height: auto;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+}
